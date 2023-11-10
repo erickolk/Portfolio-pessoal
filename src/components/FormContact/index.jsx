@@ -22,9 +22,9 @@ export default function FormContact(){
         <input type="text" name="" id="" placeholder="Insira o assunto aqui." className="p-2 opacity-80 w-50 h-8 rounded"/>
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col ">
         <label htmlFor="" className="text-white">Descrição</label>
-          <textarea name="" id="" cols="52" rows="5" className="opacity-80 p-2 rounded"></textarea>
+          <textarea name="" id="" cols="52" rows="5" className="opacity-80 p-2 rounded max-2xl:w-56 max-2xl:h-24"></textarea>
         </div>
     </div>
   )
