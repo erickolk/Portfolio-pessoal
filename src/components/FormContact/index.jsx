@@ -1,31 +1,20 @@
+import FormInput from "../FormInput";
 
 export default function FormContact(){
   return(
-    <div className="flex flex-wrap gap-4 justify-center mt-16">
-      <div className="flex flex-col">
-        <label htmlFor="name" className="text-white">Nome</label>
-        <input type="text" name="" id="name" placeholder="Nome" className="p-2 opacity-80 w-50 h-8 rounded"/>
-      </div>
+    <div className="flex flex-wrap gap-4  mt-2 w-3/5 max-sm:w-full max-md:w-4/5 bg-blue-200 p-4 rounded-md max-lg:w-4/5">
       
-      <div className="flex flex-col">
-      <label htmlFor="" className="text-white">Email</label>
-      <input type="email" name="" id="" placeholder="Digite seu email para contato." className="opacity-80  w-50 h-8 rounded p-2"/>
-      </div>
-      
-      <div className="flex flex-col">
-        <label htmlFor="" className="text-white">Celular</label>
-        <input type="tel" name="" id="" placeholder="Celular" className="p-2 opacity-80 w-50 h-8 text-red rounded"/>
-      </div>
-      
-      <div className="flex flex-col">
-        <label htmlFor="" className="text-white">Assunto</label>
-        <input type="text" name="" id="" placeholder="Insira o assunto aqui." className="p-2 opacity-80 w-50 h-8 rounded"/>
-      </div>
+      <FormInput textLabel="Nome" placeholder={"Digite seu nome aqui..."} />
+      <FormInput textLabel={"Email"} placeholder={"Digite seu email..."}/>
+      <FormInput textLabel={"Celular"} placeholder={"Telefone para contato..."}/>
+      <FormInput textLabel={"Assunto"} placeholder={"Qual o assunto ?"}/>
 
-      <div className="flex flex-col ">
-        <label htmlFor="" className="text-white">Descrição</label>
-          <textarea name="" id="" cols="52" rows="5" className="opacity-80 p-2 rounded max-2xl:w-56 max-2xl:h-24"></textarea>
+      <div className=" flex justify-center w-full">
+        <div className="flex flex-col w-3/5  max-sm:w-full">
+          <label htmlFor="" className="text-slate-700 pb-1">Descrição</label>
+          <textarea name="" id="" cols="52" rows="5" placeholder="Descreva aqui..." className="bg-transparent border-blue-500 border p-2 rounded placeholder-gray-500"></textarea>
         </div>
+      </div>
     </div>
   )
 }

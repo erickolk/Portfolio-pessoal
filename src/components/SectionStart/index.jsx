@@ -34,10 +34,10 @@ export default function SectionStart(){
               <p className='text-2xl max-sm:hidden max-md:text-lg text-blue-900'>Encontre-me em:</p>
               <div className='max-sm:hidden'>
                 <ul className='flex mt-2 max-md:mt-1'>
-                  <li><a href=""><FaDiscord className='text-4xl text-blue-950 mr-5 max-md:mr-3 max-md:text-3xl'></FaDiscord></a></li>
-                  <li><a href=""><FaGithub className='text-4xl text-blue-950  mr-5 max-md:mr-3  max-md:text-3xl'></FaGithub></a></li>
+                  <li><a href="https://discord.gg/jHbPBnwR" target='_blank'><FaDiscord className='text-4xl text-blue-950 mr-5 max-md:mr-3 max-md:text-3xl'></FaDiscord></a></li>
+                  <li><a href="https://github.com/erickolk" target='_blank'><FaGithub className='text-4xl text-blue-950  mr-5 max-md:mr-3  max-md:text-3xl'></FaGithub></a></li>
                   <li><a href=""><FaTelegram className='text-4xl text-blue-950  mr-5 max-md:mr-3  max-md:text-3xl'></FaTelegram></a></li>
-                  <li><a href=""><FaLinkedin className='text-4xl text-blue-950   max-md:text-3xl'></FaLinkedin></a></li>
+                  <li><a href="https://www.linkedin.com/in/erick-oliveira-0498a1149/" target='_blank'><FaLinkedin className='text-4xl text-blue-950   max-md:text-3xl'></FaLinkedin></a></li>
                 </ul>
               </div>
             </div>

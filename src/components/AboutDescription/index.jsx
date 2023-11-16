@@ -1,7 +1,6 @@
 export default function SectionSkills({children}){
   return(
-    <div>
-     <div className="w-[80vw] h-[430px] bg-blue-950 mb-4 rounded-md max-sm:w-full max-sm:h-auto max-md:w-full max-md:h-auto max-lg:w-full max-lg:h-auto ">
+     <div className="w-full h-auto bg-blue-950 mb-4 rounded-md max-sm:w-full max-sm:h-auto max-md:w-full max-md:h-auto max-lg:w-full max-lg:h-auto ">
       <p className="text-white p-4 max-sm:text-sm max-lg:text-sm">
               Olá, sou [Seu Nome], um [Sua Profissão] apaixonado por [Sua Paixão ou Área de Interesse]. Com [Número de Anos] de experiência nesta área emocionante, estou ansioso para compartilhar um pouco mais sobre mim e meu percurso até aqui.
         Desde cedo, sempre tive fascínio por [Descreva algo relacionado à sua área de interesse]. Esse interesse cresceu e se transformou em uma carreira gratificante. Ao longo dos anos, tive a oportunidade de trabalhar com [Mencione Empresas ou Projetos Relevantes], onde desenvolvi minhas habilidades e conquistei uma compreensão profunda de [Destaque as principais áreas de especialização ou competências].
@@ -12,6 +11,5 @@ export default function SectionSkills({children}){
         [Seu Nome]
       </p>
      </div>
-    </div>
   )
 }

@@ -20,7 +20,7 @@ import SectionPortfolio from './components/SectionPortfolio'
 function App() {
   return (
     <>
-      {/* <SectionStart/>
+      <SectionStart/>
 
       <TitleP/>
       <SectionPortfolio
@@ -52,7 +52,7 @@ function App() {
         <ProjectCards bgColor="bg-green-500" bgColorFaixa="bg-yellow-500" textColor="text-blue-950"  title="Teste"/>
         <ProjectCards bgColor="bg-blue-500" bgColorFaixa="bg-yellow-500" textColor="text-blue-950" title="Teste"/>
       </PagePortfolio>
-      <h1 className='text-5xl font-rubik font-bold text-blue-950 ml-32 mt-8 max-sm:text-3xl'>Skills</h1>
+      <h1 className='text-5xl font-rubik font-bold text-blue-950 ml-32 mt-40 max-sm:text-3xl'>Skills</h1>
       <SectionSkills>
         <SkillCard logo={tsLogo} text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."/>
         <SkillCard logo={tsLogo} text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."/>
@@ -60,20 +60,20 @@ function App() {
         <SkillCard logo={tsLogo} text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."/>
         <SkillCard logo={tsLogo} text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."/>
         <SkillCard logo={tsLogo} text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."/>
-      </SectionSkills> */}
+      </SectionSkills>
 
-      {/* <SectionAbout>
+      <SectionAbout>
 
-        <div>
+        <div className='w-4/5'>
           <AboutDescription/>
           <AboutSSkills/>
         </div>
         <AboutHobbies />
-      </SectionAbout> */}
+      </SectionAbout>
 
       <SectionContact/>
-{/* 
-      <Footer/> */}
+
+      <Footer/>
 
     </>
   )

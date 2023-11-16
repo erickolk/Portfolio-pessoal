@@ -2,18 +2,15 @@ import online from '../../assets/online.svg'
 import FormContact from '../FormContact'
 export default function SectionContact(){
   return(
-    <div className='mt-8 ml-32 mr-32'>
-      <h1 className='font-rubik text-5xl font-bold text-blue-950 rounded border-l-blue-950 border-2 rounded-sm mb-1'>Contact me</h1>
-        <div className="mb-8 h-full w-full flex justify-center">
-        <div className="flex justify-center bg-gray-400 w-1/2 h-[500px] rounded-r-3xl rounded-l-md">
-          
-          <img src={online} alt="" className='w-[480px] h-auto'/>
-        </div>
-        <div className="bg-blue-950 border-solid border w-1/2 h-[500px] rounded-l-3xl rounded-r-md">
-          <FormContact/>
-        </div>
+    <div className='mt-8  w-screen h-auto flex flex-col items-center'>
+      <h1 className='font-rubik text-5xl font-bold text-blue-950  border-l-blue-950 border-2 rounded-sm mb-1 w-4/5'>Contact me</h1>
+        <div className="mb-8 flex justify-center w-screen">
+          <div className="bg-blue-400 rounded-lg border-solid border w-4/5 h-auto p-8 flex gap-4 justify-between max-md:flex-col max-md:items-center items-center max-lg:flex-col">
+            <img src={online} alt="" className='w-2/5 h-4/5 max-sm:hidden'/>
+            <FormContact/>
+          </div>
         
-      </div>
+        </div>
     </div>
   )
 }
